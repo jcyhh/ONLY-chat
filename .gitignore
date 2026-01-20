@@ -1,0 +1,26 @@
+.DS_Store
+node_modules
+/dist
+/dist-staging
+/h5
+/h5Test
+
+
+# local env files
+.env.production
+.env.staging
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
