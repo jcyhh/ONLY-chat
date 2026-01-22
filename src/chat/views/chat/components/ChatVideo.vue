@@ -58,7 +58,8 @@ export default {
     },
     computed:{
         posterSrc() {
-            return `${baseUrl}/video_thumbnail/huifu${this.message.file.file_path}`
+            // return `${baseUrl}/video_thumbnail/huifu${this.message.file.file_path}`
+            return this.message.file.file_url.replace(/\.\w+$/, '.png')
         },
         width(){
             // 接口里视频的宽和高是反过来的返回的
