@@ -48,6 +48,18 @@
                         </div>
                     </div>
                 </div> -->
+                <div v-if="info.is_invite || info.role<3">
+                    <div class="chatRowLine mt30 mb30"></div>
+                    <div class="flex jb ac">
+                        <div>{{ $t('群邀请码') }}</div>
+                        <div class="flex ac" v-copy="info.invite_code">
+                            <div class="mr10">{{ info.invite_code || '--' }}</div>
+                            <div class="">
+                                <van-icon name="description-o"></van-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="chatRowLine mt30 mb30"></div>
                 <div class="flex jb" @click="jump(`/groupMember/${id}`)">
                     <div>{{ $t('群成员') }}</div>
