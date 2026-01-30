@@ -6,7 +6,7 @@
 
             <div class="search flex ac size28">
                 <van-icon name="search"></van-icon>
-                <input type="text" v-model="keyword" :placeholder="$t('请输入用户ID')" class="flex1 ml30" @input="delayFun(search)">
+                <input type="text" v-model="keyword" :placeholder="$t('请输入用户钱包地址')" class="flex1 ml30" @input="delayFun(search)">
             </div>
 
             <van-list :style="{minHeight:'calc(100vh - 1.18rem)'}" v-model="loading" :finished="finished" :finished-text="$t('没有更多了')" :immediate-check="false" @load="onLoad">

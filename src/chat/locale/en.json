@@ -120,5 +120,6 @@
     "解散群聊": "Disband group chat",
     "确定要解散群聊吗？": "Are you sure to disband the group chat?",
     "解散成功": "Disbanded successfully",
-    "请输入用户ID": "Please enter user ID"
+    "请输入用户ID": "Please enter user ID",
+    "请输入用户钱包地址": "Please enter user wallet address"
 }
